@@ -40,3 +40,32 @@ while (i <= 5) {
 	console.log("El valor del bucle es: " + i);
 	i++;
 }
+
+//EJERCICIOS DE CLASE
+//1.- Hacer un progrma que apartir de una varible edad detemrine si es mayor o menor de edad
+var age = 17
+Math.round(age)
+if (age >= 17.5){
+  console.log("Ud. ya es mayor de edad")
+} else {
+  console.log("Ud. aun es menor de edad")
+}
+
+//2.- Hacer un programa que almacene en una variable un passwowrd y evalue si el paswowrd es correcto,
+//    imprima un mensaje de bienvenida si es igual, y en mensaje de error si no lo es
+let contraseña = 1234567
+if (contraseña == 12345678){
+  console.log("Bienvenido a nuestra pagina virtual, distruta de una nueva esperiencia")
+} else {
+  console.log("ERROR, la contraseña es incorrecta")
+}
+
+//3.- Hacer un programa que almacene un dividendo y divisor (numeros) si es divisor es 0 se debera de mostrar
+//    un mensaje de error caso contrario imprima el resultado de la division
+let dividendo = 6
+let divisor = 1
+if (divisor == 0){
+  console.log("ERROR, el 0 no puede ser divisor de ningun numero")
+} else{
+  console.log("el resultado de la division es: " + dividendo/divisor)
+}

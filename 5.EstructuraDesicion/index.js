@@ -52,7 +52,7 @@ if (tiempo < 12) {
 //              case 2: declaración disruptiva; break;
 //              case n: declaración disruptiva; break;
 //}   
-let dia = 3
+let dia = 5
 switch(dia) {
     case 1: console.log("Este es el número 1."); break;
     case 2: console.log("Este es el número 2."); break;
@@ -61,9 +61,10 @@ switch(dia) {
     case 5: console.log("Este es el número 5."); break;
     case 6: console.log("Este es el número 6."); break;
     case 0: console.log("Este es el número 0."); break;
+    default : console.log("No es valida su opción.")
   }
 
-// condición WHILE--->  ejecuta un simple bucle, mientras se cumpla la condición.
+// condición WHILE---> ejecuta un simple bucle, mientras se cumpla la condición (no se sabe las veces que repite).
 //     Sintaxis
 //             while (condición){
 //             llama "cuerpo del bucle"
@@ -74,9 +75,34 @@ while (i < 16) { // muestra 0, luego 1, luego 2 hasta el 15
   i++;
 }
 
-//¡¡¡investiga!!!
-// while do (repite el proceso hasta que se deje de cumplir la condición, while comprueba la condición antes de ejecutar el código,)
-// for ¿?
 //math.ceil ---> redondea hacia arriba 2.01 = 3
 //math.floor --> redondea hacia abajo 2.01 = 2
 //math.round --> dependendo de la parte decimal 2.02 = 2 o 100,51 = 101.
+
+//¡¡¡investiga!!!
+// while do (repite el proceso hasta que se deje de cumplir la condición, while comprueba la condición antes de ejecutar el código,)
+// for se repite hasta un numero indicado "n" (sabes hasta cuando se repite)
+// for (let i=0; i<=10; i++){
+//}
+
+//EJERCICIOS DE CLASE
+let NUM = 5
+switch(NUM) {
+    case 1: console.log("Este es el número uno."); break;
+    case 2: console.log("Este es el número dos."); break;
+    case 3: console.log("Este es el número tres."); break;
+    case 4: console.log("Este es el número cuatro."); break;
+    case 5: console.log("Este es el número cinco."); break;
+    case 6: console.log("Este es el número seis."); break;
+    case 0: console.log("Este es el número cero."); break;
+    default : console.log("No es valida su opción.")
+}
+
+let letra = "a"
+switch(letra) {
+    case "a": case "e": case "i": case "o": case "u":
+      console.log(`la letra ${letra}, es una vocal`)
+      break
+    default : console.log("No es una vocal.")
+}
+
