@@ -11,7 +11,7 @@ var nomnbrePresidente
 let EdadDeMiPerro 
 
 //Proceso de asignacion
-//necesitamos "no nombre de la variable" + "el signo de asignacio" + "tipo de dato a almacenar"
+//necesitamos "nombre de la variable" + "el signo de asignacio" + "tipo de dato a almacenar"
 nombre_pais = "Perú"
 nombre_pais= "Mexico"
 //las variables pueden ser reescritos
