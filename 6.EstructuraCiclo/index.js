@@ -57,3 +57,9 @@ console.log(i)
 //el bucle FOR, pues no incorpora en la misma línea la inicialización de las variables su condición 
 //para seguir ejecutándose y su actualización. Sólo se indica, como veremos a continuación, la 
 //condición que se tiene que cumplir para que se realice una iteración.
+let vocales = "aeiou"
+for(let i=0; i<vocales.length; i++){
+  console.log(vocales[i])
+}
+
+//averifuar metodo include
