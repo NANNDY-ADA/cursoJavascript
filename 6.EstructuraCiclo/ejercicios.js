@@ -79,4 +79,4 @@ do {
 //hacer un programa que se muestre el factorial de un numero
 //hacer un programa que me determine si un texto es palindromo
 //hacer un programa que muestre los n primeros numeros de la serie de fibonacci 
-//(1,2,5,8,13)
+//(1,2,5,8,13,21)
