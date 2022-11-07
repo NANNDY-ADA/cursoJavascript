@@ -62,4 +62,5 @@ for(let i=0; i<vocales.length; i++){
   console.log(vocales[i])
 }
 
-//averifuar metodo include ()
+//averifuar metodo include ()  determina si una cadena de texto puede ser encontrada dentro de otra cadena de texto, devolviendo true o false según corresponda.
+//    sintaxis str.includes(searchString[, position])
