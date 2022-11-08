@@ -13,3 +13,19 @@
 //                             parámetros de entrada entre paréntesis.
 //función por expresión -----> guarda una función en una variable.
 //función por constructor de objetos-> las menos recomendadas.
+
+function saludo(nombre, apellido){
+    let saludo = "Hola ¿como estas? " + nombre + " " + apellido
+    return saludo
+}
+//para usar la función debo llamar a la función
+console.log(saludo("Ada", "Ortiz"))
+
+//arrow function o funciones fecha (expresion de funcion)
+//     Sintaxis
+//            parametro => expresión (simple no requiere parenctesis)
+//            (parametro1, parametro2) => expresion (requiere parentesis)
+//            parametro => {   (declaracion de varias lineas requieren 
+//            let a = 1;       llaves y return)
+//            return a+b; 
+//            }

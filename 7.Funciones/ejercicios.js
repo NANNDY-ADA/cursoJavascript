@@ -52,3 +52,33 @@ function factorial(num){
     return serie_fibonacci(x-1) + serie_fibonacci(x-2);
   }
   console.log(serie_fibonacci(4))
+
+//EJERCICIOS DE CLASE
+//contaor de vocales function contadorvocales(texto){return}
+function cont_vocal (texto){
+  let contador = 0
+  for(let i=0; i < texto.length; i++){
+    switch(texto[i] ){
+      case "a": case "e": case "i": case "o": case "u":
+      contador+=1
+    }
+  }
+  let cont_vocal = texto + " tiene " + contador + " vocales en total"
+  return cont_vocal 
+}
+console.log(cont_vocal("eucalipto"))
+
+//funcion calculadora (num1, num1, operacion){return}
+function suma(numero1, numero2) {
+  return numero1 + numero2;
+}
+function resta(numero1, numero2) {
+  return numero1 - numero2;
+}
+function multiplicacion(numero1, numero2) {
+  return numero1 * numero2;
+}
+function division(numero1, numero2) {
+  return numero1 / numero2;
+}
+console.log(multiplicacion(2,5))
